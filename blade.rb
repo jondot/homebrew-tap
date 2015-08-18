@@ -1,11 +1,13 @@
 require "language/go"
+BLADE_VER = "0.0.5"
+BLADE_SHA = "db3b1cc621fb890d98b7290dec6b2d7689b10697a24a16aeaf4af6a35dacc77f"
 
 class Blade < Formula
-  desc "Blade - automatically build and rebuild XCode image catalogs for app icons, universal images, and more."
+  desc "Blade - automatically generate XCode image catalogs for app icons, universal images, and more."
   homepage "https://github.com/jondot/blade"
-  url "https://github.com/jondot/blade/releases/download/v0.0.3/blade_0.0.3_darwin_amd64.zip"
-  version "0.0.3"
-  sha256 "459570da06d5114f14236f3a5cb165db6b6f44bcb9ad49ad437c306d65799643"
+  url "https://github.com/jondot/blade/releases/download/v#{BLADE_VER}/blade_#{BLADE_VER}_darwin_amd64.zip"
+  version BLADE_VER
+  sha256 BLADE_SHA
 
   def install
     bin.install "blade"
