@@ -1,6 +1,6 @@
 require "language/go"
-BLADE_VER = "0.0.5"
-BLADE_SHA = "db3b1cc621fb890d98b7290dec6b2d7689b10697a24a16aeaf4af6a35dacc77f"
+BLADE_VER = "0.0.6"
+BLADE_SHA = "79a38f04f70776388f1bf74d0a39b38238dc191046525c7aeb21e87f1faf7cfc"
 
 class Blade < Formula
   desc "Blade - automatically generate XCode image catalogs for app icons, universal images, and more."
