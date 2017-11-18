@@ -1,4 +1,4 @@
-VER = "0.0.3"
+VER = "1.0.3"
 SHA = "d3149ac8f1867c941ed84d42209f5ac652856fbbc33592f2e22037c77fe2ab2c"
 
 class Gitstat < Formula
