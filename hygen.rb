@@ -1,6 +1,6 @@
 
 VER = "1.4.25"
-SHA = "dbcb23927ddc5e7e45773b08001c8336da710bd035b79f1884c934aa31823a36"
+SHA = "9b02c07106a706fa543e29aded7dd0b860f8986ce483e20b8ee9bb5634ad5e66"
 
 class Hygen < Formula
   desc "The scalable code generator that saves you time."
