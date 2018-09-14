@@ -10,6 +10,6 @@ class Rawsort < Formula
   sha256 SHA
 
   def install
-    bin.install "rawsort"
+	bin.install "rawsort"
   end
 end
