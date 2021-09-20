@@ -1,9 +1,9 @@
 class Bumblefoot < Formula
   desc "A test formula"
   homepage "http://www.example.com"
-  url "https://github.com/SpectralOps/rust-ci-release-template/archive/v1.0.5.tar.gz"
-  version "1.0.5"
-  sha256 "501427f156bcd867007895bb2f6af12344f95bef524001e683b7a7d3c2631868"
+  url "https://github.com/spectralops/rust-ci-release-template/releases/download/v1.0.6/bumblefoot-v1.0.6-x86_64-macos.tar.xz"
+  version "1.0.6"
+  sha256 "d6ca6b718692e9f293d5b2f3d2098762331072f13435e5e9d2eeb34957a18554"
 
   def install
     bin.install "bfoot"
