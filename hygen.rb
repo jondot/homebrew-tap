@@ -2,9 +2,9 @@
 class Hygen < Formula
   desc "The scalable code generator that saves you time."
   homepage "http://www.hygen.io"
-  url "https://github.com/jondot/hygen/releases/download/v6.2.10/hygen.macos.v6.2.10.tar.gz"
-  version "6.2.10"
-  sha256 "e0f342b9b577bb687c504f5b6eee18bce671056189d6e040a137add039f9f24d"
+  url "https://github.com/jondot/hygen/releases/download/v6.2.11/hygen.macos.v6.2.11.tar.gz"
+  version "6.2.11"
+  sha256 "910d5179a369412d3a7fe4ab30dc222ba29f3d19811b0bb9b14304cbe46240c0"
 
   def install
     bin.install "hygen"
