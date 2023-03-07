@@ -1,9 +1,9 @@
 class Rustwrap < Formula
-  desc "rustwrap"
-  homepage "http://www.example.com"
-  url "https://github.com/rusty-ferris-club/recon/releases/download/v0.6.0/recon-x86_64-macos.tar.xz"
-  version "0.6.0"
-  sha256 "f2b8147f3154aac602149a27fe73f4b73ec09dd82225530c9a3eba6ad66b51ae"
+  desc "A tool that helps wrap binary releases for easy distribution"
+  homepage "http://github.com/rusty-ferris-club/rustwrap"
+  url "https://github.com/rusty-ferris-club/rustwrap/releases/download/v1.0.5/rustwrap-x86_64-macos.tar.xz"
+  version "1.0.5"
+  sha256 "d00462fd9b413aedbb733d8c377dbc023aa927646a4813fca6358c9dffb29302"
 
   def install
     bin.install "rustwrap"
