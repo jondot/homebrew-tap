@@ -1,9 +1,9 @@
 class Mm < Formula
   desc "mm - makeme: figures out how to start developing"
   homepage "http://github.com/jondot/makeme"
-  url "https://github.com/jondot/makeme/releases/download/v0.3.0/makeme-x86_64-macos.tar.xz"
-  version "0.3.0"
-  sha256 "2555b740c68da35356dbf7ae07542f4989e9ebde54239e11f1770cba8eec714d"
+  url "https://github.com/jondot/makeme/releases/download/v0.4.0/makeme-x86_64-macos.tar.xz"
+  version "0.4.0"
+  sha256 "bc073eb60f39680f10b858eee7c64555358ca5c6d09d1738491f41c726b7bd78"
 
   def install
     bin.install "mm"
